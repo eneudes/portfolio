@@ -1,0 +1,16 @@
+:root {
+  --text-primary: white;
+  --backgroud-primary: #2c2c2c;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: var(--backgroud-primary);
+  max-width: 100vw;
+  overflow-x: hidden;
+}
