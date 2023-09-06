@@ -10,10 +10,10 @@ export default function Header() {
           <h2>Software Developer</h2>
         </div>
         <Image
-            src="/perfil1.svg"
+            src="/profile1.jpeg"
             alt="foto perfil"
-            width={200}
-            height={200}
+            width={325}
+            height={325}
             priority
           />
       </header>
