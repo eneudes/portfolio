@@ -1,19 +1,37 @@
-.info{
+.info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   color: var(--text-secondary);
+  grid-area: info;
 }
-.lenguages-info{
-  width: 100%;
+.lenguages-info {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 10px;
+  .lengue-icon {
+    display: flex;
+    gap: 20px;
+  }
 }
-.lengue-icon{
+.education-info {
   display: flex;
-  gap:20px;
+  align-items: center;
+  gap: 10px;
 
+  .icon-education {
+    font-size: 26px;
+  }
+  .text-education {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }

@@ -18,8 +18,8 @@ export default function Info() {
       </div>
       <SectionTitle text="Education" />
       <div className="education-info">
-        <span>🎓</span>
-        <span>
+        <span className="icon-education">🎓</span>
+        <span className="text-education">
           {" "}
           Technologist in Internet Systems - Faculty of Technology META -
           Macapá-AP
