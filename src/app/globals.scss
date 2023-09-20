@@ -29,19 +29,18 @@ body {
 
   
   @media (min-width:768px) {
-  
-    padding: 60px 100px;
-   
+      max-width: 1440px;
+      margin: auto;
       height: 100vh;
       grid-template-rows: auto;
-      grid-template-columns: 70% 30%;
+      grid-template-columns: 11fr 1fr;
       align-items: center;
       justify-items: start;
       justify-content: space-between;
       grid-template-areas:
       "header info"
-      "experience empty-1"
-      "empty-2 btns";    
+      "experience btns"
+      ;    
     }
   }
 

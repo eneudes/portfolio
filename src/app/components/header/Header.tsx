@@ -12,8 +12,8 @@ export default function Header() {
         <Image
             src="/profile1.jpeg"
             alt="foto perfil"
-            width={300}
-            height={300}
+            width={225}
+            height={225}
             priority
           />
       </header>

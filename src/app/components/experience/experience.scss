@@ -12,10 +12,13 @@
     text-align: center;
     color: var(--text-secondary);
   }
+  .experiece-time{
+    padding-top: 24px;
+  }
   @media (min-width:768px) {
     align-items: flex-start;
     p{
-      width: 680px;
+      max-width: 680px;
       font-size: 24px;
       line-height: 36px;
       text-align: start;
